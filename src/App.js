@@ -2,6 +2,7 @@ import React from "react";
 import TicTacToe from "./components/TicTacToe/TicTacToe";
 // import Counter from "./components/Counter/Counter";
 // import Parent from "./components/ParentChild/Parent/Parent";
+// import Fetch from "./components/Fetch/Fetch";
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <TicTacToe />
     // <Counter />
     // <Parent />
+    // <Fetch />
   );
 }
 

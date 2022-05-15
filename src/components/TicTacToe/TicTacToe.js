@@ -2,6 +2,7 @@ import React, { useState, Children } from "react";
 import styles from './TicTacToe.module.css';
 
 function TicTacToe() {
+  // (Math.sqrt(numberOfSquares) % 2 === 0)
   const [board, setBoard] = useState(new Array(9).fill(''));
   const [lastSymbol, setLastSymbol] = useState('O');
   const [winningCombination, setWinningCombination] = useState([]);
