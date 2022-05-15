@@ -42,7 +42,7 @@ function TicTacToeAdvanced({noOfSquares}) {
         rightToLeftDiagonal.push(twoDArray[i][twoDArray.length - 1 - i]);
       }
 
-      // all both diagonal win combinations
+      // add both diagonal win combinations
       initialWinCombinations.push(leftToRightDiagonal, rightToLeftDiagonal);
 
       // add local variable to state
