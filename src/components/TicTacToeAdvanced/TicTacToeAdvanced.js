@@ -47,7 +47,6 @@ function TicTacToeAdvanced({noOfSquares}) {
 
       // add local variable to state
       setWinCombinations(initialWinCombinations);
-      console.log(initialWinCombinations);
 
     } else {
       console.log('invalid input');
